@@ -23,15 +23,5 @@ namespace Tarea1DWBE
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-        
-        public static void Tarea1()
-        {
-            // select * from Employee
-            NorthwindContext dataContext = new NorthwindContext();
-
-            var employeeQuery = dataContext.Employees.Select(s => s).AsQueryable();
-            var output = employeeQuery.ToList();
-
-        }
     }
 }

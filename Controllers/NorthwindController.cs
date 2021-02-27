@@ -16,15 +16,6 @@ namespace Tarea1DWBE.Controllers
         [HttpGet]
         public IEnumerable<Categories> Get()
         {
-            // select * from Employee
-            /*NorthwindContext dataContext = new NorthwindContext();
-
-            var employeeQuery = dataContext.Employees.Select(s => s);
-
-            var output = employeeQuery.ToArray();
-
-            return output;*/
-
             using (var dataContext = new NorthwindContext())
             {
                 var employeeQuery = dataContext.Categories.Select(s => s);
