@@ -11,7 +11,7 @@ namespace Tarea1DWBE.Controllers
     [ApiController]
     [Route("[controller]")]
     public class NorthwindController : Controller
-    {
+    {        
         // GET: NorthwindController
         [HttpGet]
         public IEnumerable<Categories> Get()

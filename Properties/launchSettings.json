@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Tarea1DWBE": {
+    "ProyectoDWBE": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "northwind",
