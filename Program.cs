@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Tarea1DWBE.DataAccess;
 
-namespace Tarea1DWBE
+namespace ProyectoDWBE
 {
     public class Program
     {
