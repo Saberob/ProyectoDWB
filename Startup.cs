@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProyectoDWBE
+namespace Tarea1DWBE
 {
     public class Startup
     {
